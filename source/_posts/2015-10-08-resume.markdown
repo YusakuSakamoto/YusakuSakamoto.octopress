@@ -1,0 +1,7 @@
+---
+layout: post
+title: "resume"
+date: 2015-10-08 00:25:40 +0900
+comments: true
+categories: 
+---
