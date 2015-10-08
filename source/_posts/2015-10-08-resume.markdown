@@ -83,7 +83,7 @@ gitって、...正直めんどくさいなぁなんて思っていませんか?
 
 私がこの**git-flow**を使用した結果をお見せします。　
 どうぞ
-[gitkのスクショ](https://github.com/YusakuSakamoto/YusakuSakamoto.octopress/blob/master/source/images/2015-10-08-gitk.png")
+[gitkのスクショ](https://github.com/YusakuSakamoto/YusakuSakamoto.octopress/blob/master/source/images")
 
 ##5.自己紹介
 これを機会に、今までの活動を振り返りたいと思います。  
