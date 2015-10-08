@@ -83,6 +83,7 @@ gitって、...正直めんどくさいなぁなんて思っていませんか?
 
 私がこの**git-flow**を使用した結果をお見せします。　
 どうぞ
+![gitk](https://github.com/YusakuSakamoto/YusakuSakamoto.octopress/blob/master/source/images/2015-10-08-gitk.png"gitkのスクショ")
 
 ##5.自己紹介
 これを機会に、今までの活動を振り返りたいと思います。  
@@ -141,46 +142,46 @@ _ _ _
 ![](http://music.emtg.jp/datas/mst/keyVisual/75/185_special_key_sakanaction%281%29.jpg)
 
 CIR-KITで学んだもの
-- Ubuntu
-- C
-- C
-- Makefile
-- cmake
-- LRF
-- Serial 通信
-- emacs
-- ROS
-- OpenCV
-- pthread
-- linux system call
-- GTK Window Programing
-- エンコーダの読み方、仕組み
-- Arduino
-- raspberry Pi
-- imcs01
-- OpenMP
-- パターン認識
-- ライントレース
-- ファジー制御
-- git
-- github
-- git-flow
-- github-flow
-- 機械学習
-- 平均値シフト法
-- 確率
-- マネジメント
-- パーティクルフィルタ
-- カルマンフィルタ
-- ガウシアンフィルタ等の画像処理系フィルタ
-- マルコフ連鎖モンテカルロ法
-- TCP/IP・パケット通信
-- ステッピングモータ制御
-- モータ制御
-- 電気回路基礎
-- PID制御
-- CAD(inventor,Design Spark)
-- その他知識、一般教養
+- Ubuntu  
+- C  
+- C  
+- Makefile  
+- cmake  
+- LRF  
+- Serial 通信  
+- emacs  
+- ROS  
+- OpenCV  
+- pthread  
+- linux system call  
+- GTK Window Programing  
+- エンコーダの読み方、仕組み  
+- Arduino  
+- raspberry Pi  
+- imcs01  
+- OpenMP  
+- パターン認識  
+- ライントレース  
+- ファジー制御  
+- git  
+- github  
+- git-flow  
+- github-flow  
+- 機械学習  
+- 平均値シフト法  
+- 確率  
+- マネジメント  
+- パーティクルフィルタ  
+- カルマンフィルタ  
+- ガウシアンフィルタ等の画像処理系フィルタ  
+- マルコフ連鎖モンテカルロ法  
+- TCP/IP・パケット通信  
+- ステッピングモータ制御  
+- モータ制御  
+- 電気回路基礎  
+- PID制御  
+- CAD(inventor,Design Spark)  
+- その他知識、一般教養  
 
   
 ##6.今の1号機を動かすには(一緒に考えよう)
