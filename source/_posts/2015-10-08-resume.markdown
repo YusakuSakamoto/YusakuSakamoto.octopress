@@ -36,6 +36,10 @@ Markdown（マークダウン）は、文書を記述するための軽量マー
 CIR-KITのブログもこれを採用して一時期作成しました。  
   
 ###haroopadをインストールしましょう
+下のやり方は、**ubuntu14.04LTS**での環境で確認しました。  
+[インストール方法](http://linuxg.net/how-to-install-haroopad-0-12-2-on-ubuntu-debian-and-derivative-systems/)
+
+下のやり方は、**ubuntu15.04**での環境で確認しました。
 1.Ubuntu Software centerで、haroopadと検索  
 2.install!  
 ![](http://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Haroopad-icon.png)
