@@ -1,0 +1,57 @@
+---
+layout: post
+title: "新しい有志のためのガイダンス2"
+date: 2015-10-09 13:58:08 +0900
+comments: true
+published: true
+categories: CIR-KIT
+---
+#挨拶と目次
+[「新しい有志のためのガイダンス」](http://yusakusakamoto.github.io/blog/2015/10/08/resume/)の復習  
+1. keepass2の紹介  
+2. dropboxの紹介  
+3. githubの登録・導入  
+4. gitの解説  
+5. haroopadの導入  
+
+反省点  
+1. 思うほど進行が早くなかった。  
+2. 思うほどコンピュータに慣れていなかった。  
+  
+改善点  
+1. Ubuntuの魅力を説明する  
+2. USB Bootから、HDDへの移行をすすめる  
+3. ROSをどう位置づけるかついての話をCIR-KIT内で議論する  
+4. sudo apt-get update && sudo apt-get upgrade　をするようにすすめる  
+5. 皆忙しい中ではあったが、もっと早くガイダンスを開くべきだった
+
+善処します
+
+今日の内容は前回に引き続き、  
+今日の内容  
+1. **C++の話**  
+2. **Arduinoの話**  
+3. **Joystickの話**  
+4. 前回の6.今の1号機を動かすには
+の内容を話します。
+よろしくお願いします。
+
+#C++の紹介
+[ロベールのC++](http://www7b.biglobe.ne.jp/~robe/cpphtml/)のレビューをしますと、これが大変良い良書でして、私が1年生の春休みに購入し、学習を始めた本でした。ぜひご購入くださいませ。
+
+#ArduinoとPCとの通信プログラム
+[私のgithubからcloneしてください](https://github.com/YusakuSakamoto/arduino)
+```
+git clone https://github.com/YusakuSakamoto/arduino
+```
+このプログラムは、以下のものが含まれています。  
+- JoyStickとの通信  
+- Arduinoとの通信  
+- GPSとの通信  
+- iMCs01との通信  
+- LRF(UTM-30LXとの通信)  
+  
+必要なヘッダー等、不要な部分はコメントアウトする必要があります。  
+ご注意ください。  
+
+#グループワーク

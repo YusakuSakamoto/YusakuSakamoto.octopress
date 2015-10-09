@@ -7,6 +7,7 @@ published: true
 categories: passport
 ---
 #SWOT分析
+(Strengths,Weaknesses,Opportunities,Threats)  
 Wikiより  
 `
 目標を達成するために意思決定を必要としている組織や個人のプロジェクトやベンチャービジネスなどにおいて、外部環境や内部環境を強み、弱み、機会、脅威の4つのカテゴリーで要因分析し、事業環境変化に対応した経営資源の最適活用を図る経営戦略策定法の一つである。
@@ -81,12 +82,12 @@ Wikiより
 #ニッチ市場について
 市場全体の一部を構成する特定のニーズを持つ規模の小さい市場のこと。隙間市場ともいい、市場の発見はニッチを開拓するなどという使用方法をする
 
-#[重要成功分析(CSF)](http://www.itl-net.com/bsc/bsc7.html)
-重要成功要因の洗い出し手順
-1. 戦略目標を達成するための要因をできる限り多く洗い出す
-2. 洗いだした要因の中から、最も重要なものを選択する
-3. 2.で選択した要因が戦略目標を実現するために因果関係があるかどうかを熟考し、重要成功要因として決定する
-
+#[重要成功分析(CSF:Critical Success Factor)](http://www.itl-net.com/bsc/bsc7.html)
+重要成功要因の洗い出し手順  
+1. 戦略目標を達成するための要因をできる限り多く洗い出す  
+2. 洗いだした要因の中から、最も重要なものを選択する  
+3. 2.で選択した要因が戦略目標を実現するために因果関係があるかどうかを熟考し、重要成功要因として決定する  
+  
 全社的なレベルまでまとめられた後に、個人レベルまでブレークダウンされ、具体化される。
 
 #AIDMA(アイドマ)の法則
@@ -98,3 +99,22 @@ Wikiより
 
 #マーケティングミックス
 [マーケティングミックスの良説](http://viral-community.com/starting-side-business/marketing-mix-4p-4c-4731/)
+
+#マーケットイン
+コトバンクより
+`
+商品の企画開発や生産において、消費者のニーズを重視する方法。製品ありきではなく、顧客ありきの販売戦略。
+`
+
+#CRM
+(Customer Relationship Management)
+#ANSI
+(American National Standards Institute)
+#ISO
+(International Organization for Standardization)
+#IEEE(アイ・トリプルイー)
+(The Institute of Electrical and Electronics Engineers)
+#JIS
+(Japanese Industrial Standards)
+#SET
+(Secure Electronic Transaction)
