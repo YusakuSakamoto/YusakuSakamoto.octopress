@@ -55,3 +55,5 @@ git clone https://github.com/YusakuSakamoto/arduino
 ご注意ください。  
 
 #グループワーク
+リーダーが決定しました。
+raspberry pi の使用を勧め、決定しました。
