@@ -1,0 +1,35 @@
+---
+layout: post
+title: "passport03"
+date: 2015-10-13 15:44:01 +0900
+comments: true
+published: true
+categories: passport
+---
+#####SFA(Sales Force Automation)
+情報通信技術(IT)を利用して、営業に関するタスクを自動化・支援しようという考え方のこと。
+#####BPO(Business Process Outsourcing)
+企業運営上の業務や、ビジネスプロセスを専門企業に受託することを示す。日本では沖縄や北海道にコールセンターなどの業務を委託する例がある
+#####BPR(Business Process Re-engineering)
+企業活動や業務の流れを分析し、最適化すること。根本的に設計し直すことで、劇的な効率の上昇を図る。
+#####BPM(Business Process Management)
+最適な業務へと改善を続けていく取り組み。BPMとの違いは、短期的で大規模な改革ではなく、長期的な進化を図る、ということ。
+#####グループウェア
+グループウェアの持つ主な機能は、以下の通り  
+- 電子メール機能  
+- 電子掲示板機能  
+- ドキュメント共有機能  
+- スケジュール機能  
+- ワークフローシステム機能  
+- 設備予約機能  
+- ファイル共有機能  
+  
+自分が使っているグループウェア  
+slack,trello,googleカレンダー,gmailなど  
+結構各々独立しています。  
+
+#####DFD(データフローダイアグラム)
+業務などをデータの流れに注目して視覚的に表現したもの
+#####ER図(Entity Relationship Modeling)
+対象とする世界を実体と関連の２つで表現したもの。
+
