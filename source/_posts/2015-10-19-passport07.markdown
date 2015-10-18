@@ -4,8 +4,9 @@ title: "passport07"
 date: 2015-10-19 08:21:33 +0900
 comments: true
 published: true
-categories: 
+categories: passport
 ---
+
 ####排他的論理和(XOR)
 真理値表  
 
