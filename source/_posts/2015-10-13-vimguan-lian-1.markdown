@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "vim関連1"
+title: "vim1"
 date: 2015-10-13 08:04:13 +0900
 comments: true
+published: true
 categories: vim
--- 
+--- 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vim.svg)
 #vim設定ファイルの.vimrcをemacsで編集するという矛盾
 今までemacsを使っていたのですが、後輩にvimを扱う者が現れまして、なかなかに使いやすそうだなと思ってちょっと挑戦してみました。もともと少し練習したことがありましたので、ちょっとした編集くらいはできていましたが、今回は**設定ファイル**を編集しました。
@@ -23,6 +24,9 @@ categories: vim
 ```
 sudo apt-get install vim-gtk
 ```
+
+* * *
+
 ##vimshellを入れてみた、という話
 neobundleとかいう管理方法をインストールしてみた結果、結構使いやすかったと言いますか、vim側が勝手に全部やってくれます。素晴らしいです。vimshellだけは少しコンパイルして動作環境に適合させないといけないみたいですが、それ以外は全部自動です。
 
