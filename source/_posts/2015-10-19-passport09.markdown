@@ -1,0 +1,54 @@
+---
+layout: post
+title: "passport09"
+date: 2015-10-19 03:12:09 +0900
+comments: true
+published: true
+categories: passport
+---
+
+####ADSL
+非対称ディジタル加入者線（Asymmetric Digital Subscriber Line）のことで、アナログ電話回線を使って、高速通信を実現した方式。数百kから数重Mビット毎秒程度の速度。アシンメトリック(Asymmetric)とは、非対称のことで、ダウンロードは大容量を非常に高速にできるのに対して、アップロードは少量で遅い通信しかできない。
+
+####Dos攻撃
+Dos攻撃(Denial of Service attack:DoS)は、相手のサービスを妨害することを目的に、意味のない大量のデータを送りつけ、通信不能な状態にする攻撃。Denialとは、否定の意味を持つ。
+
+####DDoS
+ゾンビコンピュータを利用した分散型で行う場合は、DDoS攻撃（ディードス攻撃）と呼ばれる。ゾンビコンピュータとは、ウイルス等によって、遠隔操作で悪用できる状態のコンピュータを指す。
+
+####ジフ(Graphics Interchange Format:GIF）
+線画画像などのデータを圧縮して保存するための静止画のデータ形式。256色を扱い、JPEGと共にインターネットで標準的に使用される。
+
+####ADSL modem(モデム：変調復調装置)
+変調・復調を行うことから**mod**ulator **dem**odulatorの頭文字を取って名付けられた。ADSL modemは、ADSLでアナログ通信を行うための専用のモデム。ノイズに弱いので、電話局から離れすぎると通信速度が遅くなる。
+
+####FTP(File Transfer Protocol)
+ファイル転送プロトコルは、安全を考えた設計ではない。通常はTCP/IPのような通信で使用されていたが、現在はSSH FTP(SFTP)という手法で暗号化されたものを使用することがある。
+
+####DBMS(database management system)
+主な機能  
+- データベース言語。例えばSQLなど  
+- 論理的データの独立性  
+- データ完全性  
+- トランザクション処理  
+- セキュリティ  
+- 障害復旧  
+- 最適化  
+- 分散データベース  
+
+####DMZ
+![DMZ](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Demilitarized_Zone_Diagram.png/220px-Demilitarized_Zone_Diagram.png)  
+DMZ(非武装地帯)とは、組織の内部ネットワークと危険の多い外部ネットワーク（一般的にインターネット）の間に設置されている隔離されたネットワーク領域（サブネットワーク、Subnetwork）のこと。コンピュータセキュリティの一技法として使われる。  
+
+####HTTP
+HTTPとは、Webサーバに格納されたHTMLファイルやその他メディアファイルを転送するプロトコル。
+
+####ISMS
+PDCAのルーチンによってセキュリティを継続的に維持・向上させる仕組み。
+
+####IMAP(Internet Message Access Protocol)
+メールの本体がサーバ上で管理される。そのため、ネット回線が接続状態でない場合にはアクセスできない。
+
+####HTTPS
+HTTPSはHTTPに認証機能と暗号化機能を付け加えたものをいう。
+
