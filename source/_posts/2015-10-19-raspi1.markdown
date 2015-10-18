@@ -1,0 +1,38 @@
+---
+layout: post
+title: "raspi1"
+date: 2015-10-19 08:23:13 +0900
+comments: true
+published: true
+categories: 
+---
+#Wiring Piの導入方法
+raspberry pi 2 model Bにて動作確認済み
+
+wiringPi installの手順
+```
+git clone https://YusakuSakamoto/raspi ~/GPIO
+cd ~/GPIO
+sh wiringPi.sh
+```
+
+wiringPi.shの中身
+```
+#! /bin/bash
+
+sudo apt-get install git-core
+sudo apt-get update
+sudo apt-get upgrade
+
+mkdir -p ${HOME}/lib
+git clone git://git.drogon.net/wiringPi ${HOME}/lib/wiringPi
+cd ${HOME}/lib/wiringPi
+git pull origin master
+./build
+```
+
+#WiringPiを使用したLチカ  
+![LED Light](http://3.bp.blogspot.com/-gmSvHB8OAHo/VRQvYSy5BLI/AAAAAAAABBQ/GHkqcVJEp4Q/s1600/Raspberry%2BPi%2BGPIO%2BPins.png)
+
+##blinkレポジトリのプログラムを実行する
+makeして下さい。デフォルトの状態では、Physical13ピンでの動作をします。

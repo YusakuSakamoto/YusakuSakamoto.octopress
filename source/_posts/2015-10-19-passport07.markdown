@@ -1,0 +1,41 @@
+---
+layout: post
+title: "passport07"
+date: 2015-10-19 08:21:33 +0900
+comments: true
+published: true
+categories: 
+---
+####排他的論理和(XOR)
+真理値表  
+
+| 命題P   | 命題Q   | P XOR Q |
+|--------|--------|--------|
+|  TRUE  |  TRUE |    FALSE    |
+|  TRUE  |  FALSE |    TRUE    |
+|  FALSE  |  TRUE |    TRUE    |
+|  FALSE  |  FALSE |    FALSE    |
+
+どちらか片方のみが真であれば、その排他的論理和も真であるが、両方が真だと偽になる。  
+![XOR](https://upload.wikimedia.org/wikipedia/ja/6/6b/Venn-Diagram-XOR.png)
+
+####[ド・モルガンの法則](http://mathtrain.jp/de)
+####アルゴリズムまとめ
+- 合計(SUM)  
+- 探索(SEARCH)  
+- 逐次探索  
+- 線形探索  
+- 二分探索  
+- バイナリサーチ  
+- 併合  
+- 整列  
+- 交換法  
+- バブルソート  
+- 選択法  
+- 挿入法  
+- クイックソート  
+- ヒープソート  
+- シェルソート  
+- マージソート  
+- ハッシュ法  
+- シノニム  
