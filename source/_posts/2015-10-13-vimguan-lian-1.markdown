@@ -24,7 +24,20 @@ categories: vim
 sudo apt-get install vim-gtk
 ```
 ##vimshellを入れてみた、という話
-neoboundとかいう管理方法をインストールしてみた結果、結構使いやすかったと言いますか、vim側が勝手に全部やってくれます。素晴らしいです。vimshellだけは少しコンパイルして動作環境に適合させないといけないみたいですが、それ以外は全部自動です。
+neobundleとかいう管理方法をインストールしてみた結果、結構使いやすかったと言いますか、vim側が勝手に全部やってくれます。素晴らしいです。vimshellだけは少しコンパイルして動作環境に適合させないといけないみたいですが、それ以外は全部自動です。
 
-また何か入れたりしたら日記をつけていきます。
-以上。
+.vimrcの設定
+```
+git clone https://github.com/YusakuSakamoto/dotfiles ~/dotfiles
+sh ~/dotfiles/link.sh
+```
+
+
+neobundleの設定
+```
+mkdir .vim
+mkdir -p ~.vim/bundle
+git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+```
+
+vimを立ち上げると、環境を自動的に入れてくれます。
