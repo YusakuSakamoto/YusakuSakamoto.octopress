@@ -33,3 +33,4 @@ git pull origin master
 
 ##blinkレポジトリのプログラムを実行する
 makeして下さい。デフォルトの状態では、Physical13ピンでの動作をします。
+![ltika](/videos/20151020_091839.mp4)
