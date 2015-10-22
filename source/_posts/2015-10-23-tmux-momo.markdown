@@ -1,0 +1,36 @@
+---
+layout: post
+title: "tmux使ってみました"
+date: 2015-10-23 07:05:20 +0900
+comments: true
+published: true
+categories: raspberry_pi
+---
+
+#install
+以下の環境で動作確認済みです。  
+- raspberry Pi  
+- ubuntu15.04  
+- ubuntu14.04LTS  
+
+```
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install tmux
+```
+
+#memo
+###ウィンドウ移動
+ctrl-b o
+###水平分割
+ctrl-b "
+###垂直分割
+ctrl-b %
+###分割解除
+ctrl-b x
+
+元ネタ
+[完熟トマト](http://kanjuku-tomato.blogspot.jp/2014/02/tmux.html)
+
+#感想
+ctrl-bが辛い。その他良好。
