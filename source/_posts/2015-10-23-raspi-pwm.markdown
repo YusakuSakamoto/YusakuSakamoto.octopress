@@ -8,6 +8,6 @@ categories: raspberry_Pi
 ---
 #raspberry_Piでpwm信号を扱う
 以下の動画の様なことをしました。
-{% video /images/2015-10-21 20.28.31.mp4 640 320 [preload:auto|metadata|none] %}
+{% video /images/raspi2.mp4 640 320 [preload:auto|metadata|none] %}
 
 レポジトリraspiにプログラムを追加。
