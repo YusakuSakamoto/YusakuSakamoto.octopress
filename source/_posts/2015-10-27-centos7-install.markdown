@@ -43,13 +43,32 @@ repolist: 10,419
 
 では、yumにレポジトリの追加をしていきます。とりあえず、以下の３種類のものをとりあえず入れたら?みたいな感じで様々なサイトに記載していましたので、どのようなレポジトリなのかを調べてみましょう。  
 
-- rpmforge  
+- [repoforge](https://wiki.centos.org/AdditionalResources/Repositories/RPMForge)  
 - epel  
 - remi  
+- RPMFusion  
+- IUS  
+- Utter Ramblings  
 
+**注意**  
+今は、RPMForgeではなく、**Repoforge**という名前になっているようです  
+しかし、rpmファイルの名前は依然としてrpmforgeになっていたりして。
 
+調べた結果、個人的な感想を述べるとすれば、みなさんパッケージの種類が増えるだの、バージョンが増えるなど、様々言いたいことを申しているようですが、よくわからないので公式ページを見に行きました。  
 
+RPMforge is a collaboration of Dag and other packagers. They provide over 5000 packages for CentOS, including wine, vlc, mplayer, xmms-mp3, and other popular media tools. It is not part of Red Hat or CentOS but is designed to work with those distributions. See also Using RPMforge and Repoforge.  
+  
+そんだけかい！  
+  
+その他のレポジトリもそんなものなんでしょう。とりあえずいっぱい追加しても悪いことはない、ということですね。
 
+##keepassxのインストール
+ubuntuを使っている間は、keepass2をインストールするのが当たり前でしたが、今回はcentosで、しかも不慣れなyumなので、少しの違和感がありました。次のコマンドを実行  
+`
+sudo yum install keepassx
+`
+初めて聞きますが、このコマンドで入りました。
 
 #参考文献
 1. [UnixPower on Networking](http://www.unix-power.net/linux/yum.html)
+2. [repositoryの解説・入れ方](http://oki2a24.com/2012/03/13/what-is-rpmforge-remi-epel/)
