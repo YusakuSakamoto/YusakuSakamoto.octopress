@@ -62,13 +62,107 @@ RPMforge is a collaboration of Dag and other packagers. They provide over 5000 p
   
 その他のレポジトリもそんなものなんでしょう。とりあえずいっぱい追加しても悪いことはない、ということですね。
 
+#各種インストール
 ##keepassxのインストール
 ubuntuを使っている間は、keepass2をインストールするのが当たり前でしたが、今回はcentosで、しかも不慣れなyumなので、少しの違和感がありました。次のコマンドを実行  
 `
 sudo yum install keepassx
 `
-初めて聞きますが、このコマンドで入りました。
+  
+初めて聞きますが、このコマンドで入りました。  
+  
+##dropboxのインストール  
+解説ページにしたがってコマンドを入力するだけで入ります。ありがとうございます。  
+
+##gitのインストール
+```
+sudo yum install git
+sudo yum install gitk
+```
+
+##git-flowのインストール
+これに関してはビビりまくっていましたが、yumで行けるんかい！となってしまいました。コマンドはこちら
+```
+sudo yum install -y gitflow
+```
+
+
+##keepass2のインストール
+keepassxですが、これでは.kdbxのファイルは扱えない、ということらしいので、入れなおしました。  
+gitでkeepass2のインストーラーを起動します。  
+この時にちょっとしたエラー  
+monoについてのエラーのようですが、以下のコマンドで解決しました。  
+install方法を示します。  
+```
+sudo yum install mono-core
+sudo yum install mono-devel
+sudo yum install mono-devel
+cd ~/Downloads
+git clone https://github.com/akmc/fedora_keepass_installer
+cd fedora_keepass_installer
+chmod u+x keepass.sh
+./keepass.sh
+```
+##build-essentialsをinstall
+ubuntuでは簡単ですが、ccentosの場合は？
+```
+sudo su
+yum groupinstall "Development Tools"
+yum install kernel-devel kernel-headers
+```
+yumのgroup-installを使えばいいようですね。存在は知っていましたが、初めて使いました。これによって、gccだのg++だのもすべてインストールしてくれるので、素晴らしく楽ですね。
+
+##emacs 24.4のインストール
+なんか気持ち悪い....  
+しかし入りました。
+```
+ yum install gcc make ncurses-devel gtk+ gtk3-devel.x86_64
+ yum install giflib-devel libjpeg-devel libtiff-devel
+ cd /usr/local/src
+ wget http://mirror.bjtu.edu.cn/gnu/emacs/emacs-24.4.tar.gz
+ tar xzvf emacs-24.4.tar.gz
+ cd emacs-24.4
+ ./configure --without-all --with-x-toolkit=no --without-x
+ sudo make
+ sudo make install
+ ```
+
+##gitのバージョンアップ
+```
+sudo yum remove git
+yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-ExtUtils-MakeMaker
+cd ~/Downloads
+wget https://www.kernel.org/pub/software/scm/git/git-2.5.1.tar.gz
+tar -zxf git-2.5.1.tar.gz
+cd git-2.5.1
+sudo make
+sudo make install
+git --version
+```
+していない？
+
+##vimのインストール
+これに関しては、ほぼ教科書通りのことをしました。
+vimは今までの過程で既に入っているようでしたので、neobundleの設定をして終了でした。
+
+
+
+##その他
+###tmuxのインストール
+```
+sudo yum install tmux
+```
+###日本語環境のインストール
+```
+sudo yum -y groupinstall "Japanese Support"
+sudo yum -y install ibus-anthy
+sudo yum -y remove ibus-kkc
+sudo yum -y install ibus-kkc
+```
+
 
 #参考文献
 1. [UnixPower on Networking](http://www.unix-power.net/linux/yum.html)
 2. [repositoryの解説・入れ方](http://oki2a24.com/2012/03/13/what-is-rpmforge-remi-epel/)
+3. [dropboxのinstall](http://weblabo.oscasierra.net/installing-dropbox-on-redhat/)
+4. [CentOS7の日本語入力にAnthyを使うには](http://www.sssg.org/blogs/hiro345/archives/17553.html)
