@@ -116,16 +116,16 @@ yumのgroup-installを使えばいいようですね。存在は知っていま�
 なんか気持ち悪い....  
 しかし入りました。
 ```
- yum install gcc make ncurses-devel gtk+ gtk3-devel.x86_64
- yum install giflib-devel libjpeg-devel libtiff-devel
- cd /usr/local/src
- wget http://mirror.bjtu.edu.cn/gnu/emacs/emacs-24.4.tar.gz
- tar xzvf emacs-24.4.tar.gz
- cd emacs-24.4
- ./configure --without-all --with-x-toolkit=no --without-x
- sudo make
- sudo make install
- ```
+yum install gcc make ncurses-devel gtk+ gtk3-devel.x86_64
+yum install giflib-devel libjpeg-devel libtiff-devel
+cd /usr/local/src
+wget http://mirror.bjtu.edu.cn/gnu/emacs/emacs-24.4.tar.gz
+tar xzvf emacs-24.4.tar.gz
+cd emacs-24.4
+./configure --without-all --with-x-toolkit=no --without-x
+sudo make
+sudo make install
+```
 
 ##gitのバージョンアップ
 ```
