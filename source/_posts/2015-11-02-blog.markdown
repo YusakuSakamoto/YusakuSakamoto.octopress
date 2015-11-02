@@ -8,6 +8,15 @@ categories:
 ---
 
 #環境を整える
+##for ubuntu
+###haroopad(64bit)のインストール
+```
+wget https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.12.2_amd64.deb
+sudo apt-get -y install gdebi
+sudo gdebi haroopad-v0.12.2_amd64.deb
+```
+
+###octopress環境のインストール
 ```
 mkdir blog
 git clone git@github.com:YusakuSakamoto/YusakuSakamoto.octopress.git
@@ -16,13 +25,15 @@ git clone git@github.com:YusakuSakamoto/YusakuSakamoto.github.io.git _deploy
 sudo apt-get install rbenv
 rbenv install 1.9.3-p0
 rbenv local 1.9.3-p0
-sudo apt-get install curl nodejs build-essensial
-sudo apt-get install gem
+sudo apt-get -y install curl nodejs build-essensial
+sudo apt-get -y install gem
 gem install rails
 gem install bundler
 bundle install
 rake install
 ```
+##for centos
+
 
 #ブログの環境の整え方を再勉強してみた
 1. rubyの基礎知識
