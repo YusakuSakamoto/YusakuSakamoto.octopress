@@ -6,25 +6,16 @@ comments: true
 published: true
 categories: 
 ---
-#blogの環境の整え方s
-1. ruby環境の構築
-2. bundle
 
-#1.ruby環境の構築
-octopressを使うには、ruby1.9.3の環境が必要、とありますので、インストールしなければなりませんが、aptでは入れることができません。そのため、
+#環境を整える
 ```
+mkdir blog
+git clone git@github.com:YusakuSakamoto/YusakuSakamoto.octopress.git
+cd YusakuSakamoto.octopress
+git clone git@github.com:YusakuSakamoto/YusakuSakamoto.github.io.git _deploy
 sudo apt-get install rbenv
 rbenv install 1.9.3-p0
-cd <blog>
 rbenv local 1.9.3-p0
-```
-のコマンドでインストールします。ここで`rbenv versions`のコマンドを打てば、バージョンを確認できます。これでrubyのインストールは終了です。
-
-#bundle
-##bundleとは
-英語で意味は「束」です。BundlerはRailsアプリケーションに必要となるGemパッケージの種類やバージョンを管理し、複数のPCで必要なGemパッケージをインストールする仕組みを提供してくれます。
-
-```
 sudo apt-get install curl nodejs build-essensial
 sudo apt-get install gem
 gem install rails
@@ -32,4 +23,22 @@ gem install bundler
 bundle install
 rake install
 ```
+
+#ブログの環境の整え方を再勉強してみた
+1. rubyの基礎知識
+2. bundleとは
+3. gemとは
+4. nodejsとは
+5. curlとは
+6. rakeとは
+7. jekyllとは
+
+#rubyの基礎知識
+octopressを使うには、ruby1.9.3の環境が必要、とありますので、インストールしなければなりませんが、aptでは入れることができません。そのため、
+
+のコマンドでインストールします。ここで`rbenv versions`のコマンドを打てば、バージョンを確認できます。これでrubyのインストールは終了です。
+
+#bundle
+##bundleとは
+英語で意味は「束」です。BundlerはRailsアプリケーションに必要となるGemパッケージの種類やバージョンを管理し、複数のPCで必要なGemパッケージをインストールする仕組みを提供してくれます。
 railsは、webアプリケーションを作るためのフレームワークです。`bundle install`は、Gemfileに指定されたものをインストールするものです。Gemfileにrakeやjekyllなども記述してあります。
