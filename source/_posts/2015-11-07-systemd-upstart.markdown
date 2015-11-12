@@ -3,6 +3,7 @@ layout: post
 title: "systemd_upstart"
 date: 2015-11-07 11:13:52 +0900
 comments: true
+published: true
 categories: 
 ---
 NOOBSはOSのインストーラ
