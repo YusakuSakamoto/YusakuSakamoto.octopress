@@ -60,7 +60,22 @@ RPMforge is a collaboration of Dag and other packagers. They provide over 5000 p
   
 そんだけかい！  
   
-その他のレポジトリもそんなものなんでしょう。とりあえずいっぱい追加しても悪いことはない、ということですね。
+  その他のレポジトリもそんなものなんでしょう。とりあえずいっぱい追加しても悪いことはない、ということですね。
+
+##repo追加(rpmforge,epel,elrepo,remi,IUS)
+```
+cd ~/Downloads
+rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
+rpm -ivh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
+rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7
+rpm -ivh http://ftp-srv2.kddilabs.jp/Linux/packages/fedora/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+rpm -ivh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
+rpm --import http://rpms.famillecollet.com/RPM-GPG-KEY-remi
+rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+wget https://dl.iuscommunity.org/pub/ius/stable/CentOS/7/x86_64/ius-release-1.0-14.ius.centos7.noarch.rpm
+rpm -Uvh ius-release-1.0-14.ius.centos7.noarch.rpm
+```
 
 #各種インストール
 ##keepassxのインストール
@@ -163,6 +178,10 @@ tar zxf control.tar.gz
 chmod 755 postinst
 sudo ./postinst
 ```
+
+##VirtualBoxのインストール
+
+[CentOS 7 における VirtualBox のインストール手順](http://yoshiiz.blog129.fc2.com/blog-entry-825.html)
 
 ###日本語環境のインストール
 ```
