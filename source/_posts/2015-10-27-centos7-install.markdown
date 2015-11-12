@@ -152,6 +152,18 @@ vimは今までの過程で既に入っているようでしたので、neobundl
 ```
 sudo yum install tmux
 ```
+##haroopadのインストール
+```
+wget https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.13.1-x64.tar.gz
+tar -zxv haroopad-v0.13.1-x64.tar.gz
+cd haroopad-v0.13.1-x64
+tar -zxvf data.tar.gz
+sudo cp ./usr/ / -rf
+tar zxf control.tar.gz
+chmod 755 postinst
+sudo ./postinst
+```
+
 ###日本語環境のインストール
 ```
 sudo yum -y groupinstall "Japanese Support"
