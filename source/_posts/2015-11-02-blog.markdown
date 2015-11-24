@@ -9,11 +9,24 @@ categories:
 
 #環境を整える
 ##for ubuntu
+下のインストールは、ubuntu14.04用
 ###haroopad(64bit)のインストール
 ```
-wget https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.12.2_amd64.deb
+wget https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.13.1_amd64.deb
 sudo apt-get -y install gdebi
-sudo gdebi haroopad-v0.12.2_amd64.deb
+sudo gdebi haroopad-v0.13.1_amd64.deb
+```
+###rbenvのインストール
+```
+sudo apt-get update
+sudo apt-get upgrade
+cd ~
+sudo apt-get install git build-essential libssl-dev
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ###octopress環境のインストール

@@ -53,20 +53,6 @@ CIR-KITのブログもこれを採用して一時期作成しました。
 
 ====
 ##2.CIR-KITの先輩方の紹介
-- [有田先輩](http://github.com/AriYu)
-- [田中先輩](http://github.com/RyodoTanaka)
-- [松尾先輩](http://github.com/MatsunoTakuya)
-- [株丹先輩](http://github.com/Ry0)
-- [鮎川先輩](http://github.com/Ayuge-san)
-- 川島先輩
-
-_ _ _
-- 私こと[坂本](http://github.com/YusakuSakamoto)
-- [下松八重](https://github.com/shimoe)
-- [山崎](https://github.com/YamaCIR-KIT)
-- [中野](https://github.com/Dsaikoro)
-- [土井](https://github.com/forno)
-
 ##3.[Wolfram alfa](http://www.wolframalpha.com/)の紹介
 1年生は、解析学という授業や、様々な数学の授業がありますが、答えの載っていないような問題もあると思います。また、あれこれ教科書間違ってんじゃね?みたいな人もいると思いますが、答えをコンピュータに計算してもらいましょう、というのがこの[Wolfram alfa](http://www.wolframalpha.com/)です。[Wolfram alfa](http://www.wolframalpha.com/)と呼びます。
 
